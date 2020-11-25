@@ -3,7 +3,7 @@ CC=gcc
 CCLINK=$(CC) # Read variable CC using $(CC)
 CFLAGS=-g -Wall -std=c99
 OBJS=file0.o file1.o file2.o file3.o file4.o main.o
-EXEC=HW2.exe
+EXEC=prog.exe
 RM=-rf
 
 # The first rule is invoked by default.
